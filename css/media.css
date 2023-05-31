@@ -230,6 +230,92 @@
 	.header.nav-up {
 		transform: translateY(-130px);
 	}
+	.wrapper_page {
+		padding-top: 119px;
+	}
+	.item-news__image {
+		height: 220px;
+		margin-bottom: 16px;
+	}
+	.item-news__title {
+		font-size: 18px;
+		line-height: 27px;
+		margin-bottom: 14px;
+	}
+	.item-news__text {
+		font-size: 13px;
+		line-height: 19px;
+	}
+	.page-numbers {
+		font-size: 19px;
+		line-height: 30px;
+	}
+	.article-content h1 {
+		font-size: 30px;
+		line-height: 41px;
+		margin-bottom: 28px;
+	}
+	.article-content h2 {
+		font-size: 18px;
+		line-height: 26px;
+		padding-top: 10px;
+		padding-bottom: 15px;
+	}
+	.nav-article {
+		max-width: 400px;
+	}
+	.page-about .descr-section {
+		margin-bottom: 15px;
+	}
+	.page-about {
+		padding-bottom: 40px;
+	}
+	.clients .descr-section {
+		max-width: 920px;
+	}
+	.clients-wrapper {
+		padding: 37px 0;
+	}
+	.text-service {
+    padding: 19px 0;
+    font-size: 14px;
+    line-height: 21px;
+}
+.row_big {
+	margin: 0 -35px;
+}
+.row_big > div {
+	padding: 0 35px;
+}
+.form-page {
+    padding: 36px 50px;
+}
+.item-portfolio__image {
+    height: 235px;
+    margin-bottom: 15px;
+    }
+    .item-portfolio__title {
+    font-size: 16px;
+    line-height: 24px;
+}
+.row_portfolio > div {
+	margin-bottom: 25px;
+}
+.card-info .features {
+    padding-bottom: 21px;
+}
+.card-info .link-icon {
+    margin-top: 18px;
+}
+.title-page {
+    font-size: 30px;
+    line-height: 44px;
+    padding-bottom: 26px;
+}
+.link-icon img {
+	max-width: 28px;
+	margin-right: 18px;
+}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -366,6 +452,64 @@
 	.billbord {
 		background-size: 755px auto;
 	}
+	.item-news__image {
+		height: 190px;
+		margin-bottom: 15px;
+	}
+	.item-news__title {
+		font-size: 14px;
+		line-height: 23px;
+		margin-bottom: 12px;
+	}
+	.page-numbers {
+		font-size: 17px;
+		line-height: 29px;
+		margin: 0 14px;
+	}
+	.article-content h2 {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.nav-article li {
+		margin-bottom: 9px;
+	}
+	.row_big {
+	margin: 0 -15px;
+}
+.row_big > div {
+	padding: 0 15px;
+}
+.form-page {
+    padding: 36px 30px;
+}
+.page-portfolio {
+	padding-bottom: 30px;
+}
+.item-portfolio__image {
+    height: 190px;
+    }
+    .item-portfolio__title {
+    font-size: 14px;
+    line-height: 22px;
+}
+.row_portfolio > div {
+    margin-bottom: 20px;
+}
+.title-page {
+    font-size: 26px;
+    line-height: 39px;
+    padding-bottom: 24px;
+}
+.card-info .features {
+    padding-bottom: 15px;
+}
+.card-info .link-icon {
+	margin-top: 11px;
+}
+.link-icon img {
+	margin-right: 15px;
+	max-width: 25px;
+}
 }
 
 /* Medium Devices, Desktops */
@@ -533,6 +677,45 @@
 	.header {
 		transform: none !important; 
 	}
+	.wrapper_page {
+		padding-top: 68px;
+	}
+	.row_news > div {
+		margin-bottom: 25px;
+	}
+	.article-content h1 {
+		font-size: 26px;
+		line-height: 38px;
+		margin-bottom: 15px;
+	}
+	.article-content .title-nav {
+		padding-top: 0;
+	}
+	.nav-article {
+		margin-bottom: 15px;
+	}
+	.article-content blockquote {
+		max-width: 100%;
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.article-content img {
+		margin: 15px 0;
+	}
+	.page-about {
+		padding-bottom: 25px;
+	}
+	.form-page .checkbox {
+    margin-top: 17px;
+}
+.title-page {
+    font-size: 22px;
+    line-height: 35px;
+    padding-bottom: 20px;
+}
+.image-card {
+	margin-bottom: 20px;
+}
 }
 
 /* Small Devices, Tablets */
@@ -611,6 +794,55 @@
 	.row_partners {
 		padding-right: 0;
 	}
+	.item-news__title {
+		font-size: 15px;
+		line-height: 24px;
+	}
+	.breadcrumbs {
+		padding: 10px 0;
+		font-size: 12px;
+		line-height: 17px;
+	}
+	.breadcrumbs li::after {
+		margin: 0 6px;
+	}
+	.article-content blockquote {
+		padding-left: 20px;
+		margin-bottom: 15px;
+	}
+	.article-content h2 {
+		padding-bottom: 10px;
+	}
+	.clients-wrapper {
+		padding: 15px 0;
+	}
+	.col-client {
+		width: 25%;
+		padding: 15px;
+	}
+	.page-services {
+    padding-bottom: 35px;
+}
+.section-text {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.form-page .title-section {
+    font-size: 26px;
+    line-height: 34px;
+    padding-bottom: 10px;
+}
+.form-page .descr-title {
+    line-height: 20px;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+.page-service .article-content h1 {
+	margin-bottom: 7px;
+}
+.col_checkbox {
+	order: 2;
+}
 }
 
 /* Extra Small Devices, Phones */
@@ -657,6 +889,29 @@
 	.contacts-block__bottom {
 		padding: 0;
 	}
+	.page-news {
+		padding-bottom: 38px;
+	}
+	.article-content h1 {
+		font-size: 23px;
+		line-height: 36px;
+	}
+	.page-about ~ .consultation {
+		padding-bottom: 35px;
+	}
+	.form-page {
+		margin: 30px 0;
+	}
+	.form-page {
+    padding: 30px 25px;
+}
+.page-portfolio {
+	padding-top: 15px;
+}
+.title-page {
+    font-size: 20px;
+    line-height: 33px;
+    }
 }
 
 /* Custom, iPhone Retina */
