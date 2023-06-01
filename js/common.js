@@ -67,7 +67,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	{
 		if ($(window).width() < 768) { 
 
-			$('.item-location').click(function() {
+			$('.location').click(function() {
 				$('html').animate({ 
 					scrollTop: $("#map").offset().top - 60
 				}, 1000 
