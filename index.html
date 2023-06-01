@@ -18,8 +18,8 @@
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick.css" />
 	<link rel="stylesheet" href="libs/slick-1.5.9/slick/slick-theme.css" />
 	<link rel="stylesheet" href="css/fonts.css" />
-	<link rel="stylesheet" href="css/main.css?ver=1.6" />
-	<link rel="stylesheet" href="css/media.css?ver=1.6" />
+	<link rel="stylesheet" href="css/main.css?ver=1.7" />
+	<link rel="stylesheet" href="css/media.css?ver=1.7" />
 </head>
 <body> 
 
@@ -453,16 +453,16 @@
 		<section class="contacts">
 			<div class="container">
 				<div class="contacts-block">
-					<div class="title-section item-location location_1">Наш офис в Симферополе:</div>
+					<div class="title-section location location_1">Наш офис в Симферополе:</div>
 					<div class="contacts-wrap">
 						<p><a href="tel:+79781234567"><strong>+7 (978) 123-45-67</strong></a></p>
-						<p class="item-location location_1">ул. Гагарина, 14а, офис № 110</p>
+						<p class="location location_1">ул. Гагарина, 14а, офис № 110</p>
 						<p><a href="mailto:tehnoproekt-34@mail.ru">tehnoproekt-34@mail.ru</a></p>
 					</div>
-					<div class="title-section item-location location_2">Наш офис в Волгограде:</div>
+					<div class="title-section location location_2">Наш офис в Волгограде:</div>
 					<div class="contacts-wrap">
 						<p><a href="tel:+79781234567"><strong>+7 (978) 123-45-67</strong></a></p>
-						<p class="item-location location_2">Волжский, проспект Металлургов, 6, <br>корпус В, офис 203</p>
+						<p class="location location_2">Волжский, проспект Металлургов, 6, <br>корпус В, офис 203</p>
 						<p><a href="mailto:tehnoproekt-34@mail.ru">tehnoproekt-34@mail.ru</a></p>
 					</div>
 					<div class="contacts-block__bottom">
@@ -561,7 +561,7 @@
 <script src="libs/scroll2id/PageScroll2id.min.js"></script>
 <script src="libs/mask/jquery.maskedinput.js"></script>
 <script src="libs/jQueryFormStyler-master/jquery.formstyler.min.js"></script>
-<script src="js/common.js?ver=1.6"></script>
+<script src="js/common.js?ver=1.7"></script>
 <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script>
 <script>
 	$(document).ready(function () {
@@ -586,9 +586,9 @@
 				iconLayout: 'default#imageWithContent',
 				iconImageHref: 'img/pin.svg',
 				iconContentLayout: MyIconContentLayout,
-				iconImageSize: [30, 40],
-				iconImageOffset: [-15, -40],
-				balloonOffset: [0, -40],
+				iconImageSize: [38, 50],
+				iconImageOffset: [-19, -50],
+				balloonOffset: [0, -50],
 				hideIconOnBalloonOpen: false,
 			});
 
@@ -598,9 +598,9 @@
 				iconLayout: 'default#imageWithContent',
 				iconImageHref: 'img/pin.svg',
 				iconContentLayout: MyIconContentLayout,
-				iconImageSize: [30, 40],
-				iconImageOffset: [-15, -40],
-				balloonOffset: [0, -40],
+				iconImageSize: [38, 50],
+				iconImageOffset: [-19, -50],
+				balloonOffset: [0, -50],
 				hideIconOnBalloonOpen: false,
 			});
 
@@ -610,8 +610,8 @@
 			myMap.geoObjects.add(myPlacemark1);
 			myMap.geoObjects.add(myPlacemark2);
 
-			$( ".item-location" ).click(function() {
-				$(".item-location").removeClass("active");
+			$( ".location" ).click(function() {
+				$(".location").removeClass("active");
 				$(this).addClass("active");
 			});
 
