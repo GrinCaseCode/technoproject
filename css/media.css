@@ -277,45 +277,81 @@
 		padding: 37px 0;
 	}
 	.text-service {
-    padding: 19px 0;
-    font-size: 14px;
-    line-height: 21px;
-}
-.row_big {
-	margin: 0 -35px;
-}
-.row_big > div {
-	padding: 0 35px;
-}
-.form-page {
-    padding: 36px 50px;
-}
-.item-portfolio__image {
-    height: 235px;
-    margin-bottom: 15px;
-    }
-    .item-portfolio__title {
-    font-size: 16px;
-    line-height: 24px;
-}
-.row_portfolio > div {
-	margin-bottom: 25px;
-}
-.card-info .features {
-    padding-bottom: 21px;
-}
-.card-info .link-icon {
-    margin-top: 18px;
-}
-.title-page {
-    font-size: 30px;
-    line-height: 44px;
-    padding-bottom: 26px;
-}
-.link-icon img {
-	max-width: 28px;
-	margin-right: 18px;
-}
+		padding: 19px 0;
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.row_big {
+		margin: 0 -35px;
+	}
+	.row_big > div {
+		padding: 0 35px;
+	}
+	.form-page {
+		padding: 36px 50px;
+	}
+	.item-portfolio__image {
+		height: 235px;
+		margin-bottom: 15px;
+	}
+	.item-portfolio__title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.row_portfolio > div {
+		margin-bottom: 25px;
+	}
+	.card-info .features {
+		padding-bottom: 21px;
+	}
+	.card-info .link-icon {
+		margin-top: 18px;
+	}
+	.title-page {
+		font-size: 30px;
+		line-height: 44px;
+		padding-bottom: 26px;
+	}
+	.link-icon img {
+		max-width: 28px;
+		margin-right: 18px;
+	}
+	.title-contact {
+		font-size: 22px;
+		line-height: 31px;
+		margin-bottom: 13px;
+	}
+	.content-contact {
+		padding-left: 22px;
+		border-width: 2px;
+		margin-bottom: 25px;
+	}
+	.page-contacts .block-form {
+		padding: 28px 55px;
+		padding-bottom: 39px;
+	}
+	.thanks .cover-block img {
+		max-width: 90px;
+	}
+	.cover-block__title {
+		font-size: 80px;
+		line-height: 110px;
+	}
+	.cover-block__descr {
+		font-size: 21px;
+		line-height: 34px;
+		padding-bottom: 74px;
+	}
+	.cover-block .btn-main {
+		padding: 0 53px;
+	}
+	.page-cover {
+		padding: 45px 0;
+	}
+	.cover-block__descr span {
+		font-size: 28px;
+		line-height: 47px;
+	}
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -474,42 +510,63 @@
 		margin-bottom: 9px;
 	}
 	.row_big {
-	margin: 0 -15px;
-}
-.row_big > div {
-	padding: 0 15px;
-}
-.form-page {
-    padding: 36px 30px;
-}
-.page-portfolio {
-	padding-bottom: 30px;
-}
-.item-portfolio__image {
-    height: 190px;
-    }
-    .item-portfolio__title {
-    font-size: 14px;
-    line-height: 22px;
-}
-.row_portfolio > div {
-    margin-bottom: 20px;
-}
-.title-page {
-    font-size: 26px;
-    line-height: 39px;
-    padding-bottom: 24px;
-}
-.card-info .features {
-    padding-bottom: 15px;
-}
-.card-info .link-icon {
-	margin-top: 11px;
-}
-.link-icon img {
-	margin-right: 15px;
-	max-width: 25px;
-}
+		margin: 0 -15px;
+	}
+	.row_big > div {
+		padding: 0 15px;
+	}
+	.form-page {
+		padding: 36px 30px;
+	}
+	.page-portfolio {
+		padding-bottom: 30px;
+	}
+	.item-portfolio__image {
+		height: 190px;
+	}
+	.item-portfolio__title {
+		font-size: 14px;
+		line-height: 22px;
+	}
+	.row_portfolio > div {
+		margin-bottom: 20px;
+	}
+	.title-page {
+		font-size: 26px;
+		line-height: 39px;
+		padding-bottom: 24px;
+	}
+	.card-info .features {
+		padding-bottom: 15px;
+	}
+	.card-info .link-icon {
+		margin-top: 11px;
+	}
+	.link-icon img {
+		margin-right: 15px;
+		max-width: 25px;
+	}
+	.title-contact {
+		font-size: 19px;
+		line-height: 26px;
+		margin-bottom: 13px;
+	}
+	.page-contacts .block-form {
+		padding: 28px 20px;
+		padding-bottom: 30px;
+	}
+	.thanks .cover-block img {
+		max-width: 72px;
+	}
+	.cover-block__title {
+		font-size: 69px;
+		line-height: 97px;
+	}
+	.cover-block__descr {
+		font-size: 19px;
+		line-height: 32px;
+		padding-bottom: 55px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -706,16 +763,46 @@
 		padding-bottom: 25px;
 	}
 	.form-page .checkbox {
-    margin-top: 17px;
-}
-.title-page {
-    font-size: 22px;
-    line-height: 35px;
-    padding-bottom: 20px;
-}
-.image-card {
-	margin-bottom: 20px;
-}
+		margin-top: 17px;
+	}
+	.title-page {
+		font-size: 22px;
+		line-height: 35px;
+		padding-bottom: 20px;
+	}
+	.image-card {
+		margin-bottom: 20px;
+	}
+	.page-contacts .block-form {
+		padding: 28px 85px;
+		padding-bottom: 30px;
+	}
+	.page-cover {
+		padding: 25px 0;
+	}
+	.cover-block {
+		padding: 35px;
+		padding-bottom: 55px;
+	}
+	.cover-block__descr {
+		font-size: 17px;
+		line-height: 27px;
+		padding-bottom: 40px;
+	}
+	.cover-block .btn-main {
+		padding: 0 40px;
+	}
+	.cover-block__title {
+		font-size: 58px;
+		line-height: 86px;
+	}
+	.thanks .cover-block img {
+		max-width: 60px;
+	}
+	.cover-block__descr span {
+		font-size: 23px;
+		line-height: 40px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -821,28 +908,32 @@
 		padding: 15px;
 	}
 	.page-services {
-    padding-bottom: 35px;
-}
-.section-text {
-    padding-top: 25px;
-    padding-bottom: 40px;
-}
-.form-page .title-section {
-    font-size: 26px;
-    line-height: 34px;
-    padding-bottom: 10px;
-}
-.form-page .descr-title {
-    line-height: 20px;
-    max-width: 250px;
-    margin-bottom: 20px;
-}
-.page-service .article-content h1 {
-	margin-bottom: 7px;
-}
-.col_checkbox {
-	order: 2;
-}
+		padding-bottom: 35px;
+	}
+	.section-text {
+		padding-top: 25px;
+		padding-bottom: 40px;
+	}
+	.form-page .title-section {
+		font-size: 26px;
+		line-height: 34px;
+		padding-bottom: 10px;
+	}
+	.form-page .descr-title {
+		line-height: 20px;
+		max-width: 250px;
+		margin-bottom: 20px;
+	}
+	.page-service .article-content h1 {
+		margin-bottom: 7px;
+	}
+	.col_checkbox {
+		order: 2;
+	}
+	.cover-block__descr span {
+		font-size: 21px;
+		line-height: 37px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -903,15 +994,41 @@
 		margin: 30px 0;
 	}
 	.form-page {
-    padding: 30px 25px;
-}
-.page-portfolio {
-	padding-top: 15px;
-}
-.title-page {
-    font-size: 20px;
-    line-height: 33px;
-    }
+		padding: 30px 25px;
+	}
+	.page-portfolio {
+		padding-top: 15px;
+	}
+	.title-page {
+		font-size: 20px;
+		line-height: 33px;
+	}
+	.title-contact {
+		font-size: 18px;
+		line-height: 25px;
+	}
+	.page-contacts .block-form {
+		padding: 28px 35px;
+		padding-bottom: 30px;
+	}
+	.page-cover {
+		padding: 0;
+	}
+	.page-cover .container {
+		padding: 0;
+	}
+	.cover-block {
+		padding: 45px 25px;
+		padding-bottom: 80px;
+	}
+	.cover-block__descr {
+		font-size: 16px;
+		line-height: 25px;
+	}
+	.cover-block__descr span {
+		font-size: 20px;
+		line-height: 36px;
+	} 
 }
 
 /* Custom, iPhone Retina */

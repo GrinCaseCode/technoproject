@@ -880,7 +880,7 @@ form {
 	padding: 10px 0;
 	margin-top: 50px;
 	color: #CECECE;
-border-top: 1px solid #036F8B;
+	border-top: 1px solid #036F8B;
 }
 .create {
 	display: flex;
@@ -1086,10 +1086,10 @@ border-top: 1px solid #036F8B;
 	line-height: 20px;
 	color: #333;
 	display: block;
-	  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  -webkit-box-orient: vertical;  
-  overflow: hidden;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;  
+	overflow: hidden;
 }
 .item-news .arrow-link {
 	bottom: 13px;
@@ -1113,14 +1113,14 @@ border-top: 1px solid #036F8B;
 }
 .page-numbers.current,
 .page-numbers:hover {
-color: #00627C;
+	color: #00627C;
 }
 .prev.page-numbers,
 .next.page-numbers {
 	position: absolute;
 	top: 0;
 	margin: 0;
-		width: 36px;
+	width: 36px;
 	height: 36px;
 	font-size: 16px;
 	border-radius: 50%;
@@ -1175,7 +1175,7 @@ color: #00627C;
 	font-weight: 500;
 	font-family: 'DINPro';
 	text-transform: uppercase;
-color: #00627C;
+	color: #00627C;
 }
 .article-content img {
 	max-width: 100%;
@@ -1313,9 +1313,9 @@ color: #00627C;
 	margin-top: 25px;
 }
 .form-page .title-section {
-font-size: 32px;
-line-height: 45px;
-padding-bottom: 14px;	
+	font-size: 32px;
+	line-height: 45px;
+	padding-bottom: 14px;	
 }
 .form-page .descr-title {
 	line-height: 22px;
@@ -1417,5 +1417,76 @@ padding-bottom: 14px;
 }
 .form-page .title-section {
 	font-weight: 500;
-		font-family: 'DINPro';
+	font-family: 'DINPro';
 }
+.title-contact {
+	font-size: 24px;
+	line-height: 34px;
+	margin-bottom: 15px;
+	font-weight: 500;
+	text-transform: uppercase;
+	color: #00627C;
+	font-family: 'DINPro';
+}
+.content-contact {
+	padding: 6px 0;
+	padding-left: 30px;
+	margin-bottom: 35px;
+	border-left: 3px solid #00A896;
+}
+.content-contact a {
+	color: #333;
+}
+.page-contacts {
+	padding-top: 20px;
+}
+.page-contacts .title-section {
+	padding-bottom: 20px;
+}
+.page-contacts #map {
+	margin-top: 26px;
+}
+.page-contacts .block-form {
+	padding: 28px 69px;
+	padding-bottom: 43px;
+}
+.location {
+	cursor: pointer;
+}
+.page-cover {
+	padding: 60px 0;
+}
+.cover-block {
+	padding: 60px;
+	padding-bottom: 74px;
+	background-color: #F7F8FC;
+	text-align: center;
+	background-image: url(../img/bg_cover.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.cover-block img {
+	margin: 0 auto;
+}
+.cover-block__title {
+	font-size: 96px;
+	line-height: 134px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-family: 'DINProCond';
+}
+.cover-block__descr {
+	font-size: 24px;
+	line-height: 38px;
+	padding-bottom: 100px;
+}
+.cover-block .btn-main {
+	padding: 0 71px;
+}
+.cover-block__descr span {
+	font-size: 32px;
+	line-height: 51px;
+	font-weight: 500;
+	display: block;
+} 
